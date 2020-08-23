@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oneplus.worklife.TipLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/layout_tip_layout" android:paddingTop="33.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Work Life Balance" style="@style/oneplus_contorl_text_style_title" />
+        <TextView android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oneplus_contorl_padding_space2" android:text="Tap to setup or toggle between different modes" android:paddingEnd="@dimen/oneplus_contorl_margin_right2" style="@style/oneplus_contorl_text_style_subheading" />
+        <LinearLayout android:gravity="end" android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:id="@id/button_later" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LATER" style="@style/oneplus_contorl_text_style_title" />
+            <TextView android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:id="@id/button_setup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SETUP NOW" android:layout_marginStart="20.0dip" style="@style/oneplus_contorl_text_style_title" />
+        </LinearLayout>
+    </com.oneplus.worklife.TipLayout>
+</FrameLayout>

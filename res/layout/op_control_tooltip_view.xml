@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingTop="@dimen/oneplus_contorl_margin_top2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/oneplus_contorl_margin_left2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/oneplus_contorl_text_style_title" android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:id="@id/title" android:paddingBottom="@dimen/oneplus_contorl_padding_space2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/oneplus_contorl_margin_right2" />
+    <TextView android:textAppearance="@style/oneplus_contorl_text_style_subheading" android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/oneplus_contorl_margin_right2" />
+    <LinearLayout android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="6.0dip">
+        <Button android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:layout_gravity="end" android:id="@id/button2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/OnePlus.Widget.Material.Button.Borderless.Mini" />
+        <Button android:textColor="@color/oneplus_contorl_text_color_primary_dark" android:layout_gravity="end" android:id="@id/button1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/op_reduce_padding_space2" style="@style/OnePlus.Widget.Material.Button.Borderless.Mini" />
+    </LinearLayout>
+</LinearLayout>

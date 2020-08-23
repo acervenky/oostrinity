@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/op_control_menu_radius" />
+    <solid android:color="@color/op_menu_background_dark" />
+    <padding android:top="@dimen/op_control_menu_radius" android:bottom="@dimen/op_control_menu_radius" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/loading_view" android:layout_width="@dimen/oneplus_contorl_icon_size_display2" android:layout_height="@dimen/oneplus_contorl_icon_size_display2" android:layout_centerHorizontal="true" style="?android:progressBarStyleLarge" />
+    <TextView android:textColor="@color/oneplus_contorl_text_color_hint_light" android:paddingTop="@dimen/oneplus_contorl_layout_margin_top2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_text" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" style="@style/oneplus_contorl_text_style_subheading" />
+</RelativeLayout>

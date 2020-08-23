@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.bubbles.BubbleView android:id="@id/bubble_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/op_pointer_view" android:layout_width="@dimen/qr_bubble_background_size" android:layout_height="@dimen/qr_bubble_background_size" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/bubble_with_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.bubbles.BadgedImageView android:id="@id/bubble_image" android:padding="@dimen/bubble_view_padding" android:clipToPadding="false" android:layout_width="@dimen/individual_bubble_size" android:layout_height="@dimen/individual_bubble_size" />
+        <View android:layout_gravity="bottom" android:id="@id/app_icon" android:layout_width="@dimen/qr_bubble_app_icon" android:layout_height="@dimen/qr_bubble_app_icon" />
+    </FrameLayout>
+</com.android.systemui.bubbles.BubbleView>

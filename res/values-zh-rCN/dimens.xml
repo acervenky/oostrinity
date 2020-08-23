@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oneplus_contorl_text_size_body1">15.0sp</dimen>
+    <dimen name="oneplus_contorl_text_size_subheading">18.0sp</dimen>
+    <dimen name="oneplus_contorl_text_size_title">19.0sp</dimen>
+    <item type="dimen" name="op_control_letter_space_body1">0.03</item>
+    <item type="dimen" name="op_control_letter_space_body2">0.04</item>
+    <item type="dimen" name="op_control_letter_space_button">0.04</item>
+    <item type="dimen" name="op_control_letter_space_descriptions">0.03</item>
+    <item type="dimen" name="op_control_letter_space_headline">0.03</item>
+    <item type="dimen" name="op_control_letter_space_highlight">0.03</item>
+    <item type="dimen" name="op_control_letter_space_subheading">0.03</item>
+    <item type="dimen" name="op_control_letter_space_subtitle">0.04</item>
+    <item type="dimen" name="op_control_letter_space_title">0.06</item>
+    <item type="dimen" name="op_control_letter_space_title_extended">0.06</item>
+    <dimen name="op_control_menu_line_space_extra">-7.0dip</dimen>
+</resources>

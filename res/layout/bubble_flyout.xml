@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bubble_flyout_text_container" android:paddingLeft="@dimen/op_bubble_flyout_padding_x" android:paddingTop="@dimen/op_bubble_flyout_padding_y" android:paddingRight="@dimen/op_bubble_flyout_padding_x" android:paddingBottom="@dimen/op_bubble_flyout_padding_y" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationZ="@dimen/bubble_flyout_elevation">
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Body2" android:textStyle="bold" android:id="@id/bubble_flyout_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@android:string/config_bodyFontFamilyMedium" />
+        <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Body2" android:id="@id/bubble_flyout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/op_bubble_flyout_text_marginTop" android:maxLines="2" android:fontFamily="@android:string/config_bodyFontFamilyMedium" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/oneplus_contorl_layout_margin_left3" android:paddingEnd="@dimen/oneplus_contorl_layout_margin_right3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oneplus_contorl_list_item_height_standard">
+        <com.oneplus.lib.widget.OPEditText android:gravity="fill_horizontal" android:id="@id/edit_text" android:background="?op_editTextDialogBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" />
+    </LinearLayout>
+</LinearLayout>

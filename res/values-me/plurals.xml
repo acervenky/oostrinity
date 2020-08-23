@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Unesite SIM PIN, imate još %d preostala pokušaja prije nego što budete morali da se obratite vašem operateru za otključavanje uređaja.</item>
+        <item quantity="one">Unesite SIM PIN, imate još %d preostali pokušaj prije nego što budete morali da se obratite vašem operateru za otključavanje uređaja.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="other">Unesite SIM%1$d PIN, imate još %2$d preostalih pokušaja prije nego što budete morali da se obratite vašem operateru za otključavanje uređaja.</item>
+        <item quantity="one">Unesite SIM%1$d PIN, imate još %2$d preostali pokušaj prije nego što budete morali da se obratite vašem operateru za otključavanje uređaja.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM je sada onemogućen. Unesite PUK kôd za nastavak. Imate još %d preostala pokušaja prije nego što SIM postane trajno neupotrebljiv. Za detalje kontaktirajte operatera.</item>
+        <item quantity="one">SIM je sada onemogućen. Unesite PUK kôd za nastavak. Imate još %d preostali pokušaj prije nego što SIM postane trajno neupotrebljiv. Za detalje kontaktirajte operatera.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="other">Netačan SIM%1$d PIN kôd, imate još %2$d preostalih pokušaja prije nego što budete morali da se obratite vašem operateru za otključavanje uređaja.</item>
+        <item quantity="one">Netačan SIM%1$d PIN kôd, imate još %2$d preostali pokušaj prije nego što budete morali da se obratite vašem operateru za otključavanje uređaja.</item>
+    </plurals>
+    <plurals name="smart_aod_calendar_remain_time">
+        <item quantity="other">za %d minuta</item>
+        <item quantity="one">za %d minutu</item>
+    </plurals>
+</resources>

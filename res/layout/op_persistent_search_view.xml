@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/persistent_search_icon1" android:focusable="false" android:clickable="false" android:layout_width="@dimen/op_hint_search_view_icon_size" android:layout_height="@dimen/op_hint_search_view_icon_size" android:scaleType="center" android:tint="@color/oneplus_contorl_icon_color_active_default" />
+    <TextView android:textAppearance="@style/oneplus_contorl_text_style_subheading" android:gravity="center|left" android:id="@id/persistent_search_hint" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/op_hint_search_view_icon_size" android:layout_weight="1.0" android:layout_marginStart="@dimen/oneplus_contorl_margin_right2" android:layout_marginEnd="@dimen/oneplus_contorl_margin_right1" />
+    <ImageView android:id="@id/persistent_search_icon2" android:focusable="false" android:clickable="false" android:layout_width="@dimen/op_hint_search_view_icon_size" android:layout_height="@dimen/op_hint_search_view_icon_size" android:scaleType="center" />
+</merge>
